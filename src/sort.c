@@ -12,7 +12,7 @@ int main() {
     data = (int *)malloc(NMAX * sizeof(int));
     int x = input(data, &n);
     if (x == 1) {
-        printf("n/a\n");
+        printf("n/a");
     } else {
         sort(data, n);
         output(data, n);
